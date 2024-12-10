@@ -20,10 +20,10 @@ def move_dot(event):
         x = clamp(x + {'left': -1, 'right': 1}.get(event.direction, 0))
         y = clamp(y + {'up': -1, 'down': 1}.get(event.direction, 0))
 
-# Hiển thị thông điệp 1 lần
+Hiển thị thông điệp 1 lần
 sense.show_message("chinh", text_colour=text_colour, back_colour=bg_color, scroll_speed=0.1)
 
-# Vòng lặp chính
+Vòng lặp chính
 try:
     while True:
      Lấy dữ liệu từ cảm biến
